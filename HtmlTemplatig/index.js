@@ -16,7 +16,7 @@ app.get('/:subreddit', (req, res) => {
 	res.render('chicken', {...type } )
  })
 
-app.listen(3000,(req, res) =>{
+app.listen(3000,() =>{
 	console.log("Hey there")
 })
 
